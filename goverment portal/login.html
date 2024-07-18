@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Login</title>
+</head>
+<style>
+    #main {
+        color: black;
+        background-color:rgb(98, 97, 97);
+        text-align: center;
+    }
+
+
+
+    .username {
+        border: 1px solid black;
+        text-indent: 5px;
+        font-size: larger;
+
+    }
+
+    .password {
+        border: 1px solid black;
+        text-indent: 5px;
+        font-size: larger;
+    }
+
+    .button {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        background-color:wheat;
+        border: 2px solid black;
+        border-radius: 50px;
+        font-size: 20px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+    }
+
+    #signUp {
+        color: aliceblue;
+    }
+
+    .email {
+        color: red;
+    }
+
+    .Password {
+        color: red;
+    }
+
+        .footer{
+            background-color: grey;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .bg{
+            background-color: aqua;
+        }
+    
+</style>
+<!-- header -->
+
+<body class="bg">
+    <header>
+        <div id="main">
+            <h1><img src="TamilNadu_Logo.svg" width="50px">GOV.In</h1>        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row vh-100 w-100 align-self-center">
+            <div class="col-12 col-lg-6 col-xl-6 px-5">
+                <div class="row vh-100">
+                    <div class="col align-self-center p-5 w-100">
+                        <h3 class="fw-bolder">WELCOME BACK !</h3>
+                        <p class="fw-lighter fs-6">Don't have an account,
+                            <a href="signup.html"><span><button type="submit" class="btn btn-success mt-3">Sign
+                                        Up</button></span></a>
+
+                            <!-- form works -->
+
+                        <form action="home.html">
+                            <div class="mb-3">
+                                <label class="email">Email</label><br>
+                                <input type="email" class="username" placeholder="name@gmail.com" required>
+                            </div>
+                            <!-- password -->
+                            <div class="mb-3">
+                                <label for="username" class="Password">Password</label>
+                                <div class="d-flex position-relative">
+                                    <input type="password" class="password" required>
+                                </div>
+                            </div>
+                            <!-- login -->
+                            <div class="">
+                                <a href="home.html"><button type="submit" class="btn btn-success mt-4 ">Login</button>
+                                </a>
+                            </div>
+                            <!-- social -->
+                        </form>
+                        <p class="mt-5 text-center">Or Sign in with social platforms</p>
+                        <div class="row text-center">
+                            <div class="col mt-3">
+                                <a href="" class="button"><i class="bi bi-facebook fs-5"></i></a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="" class="button"><i class="bi bi-linkedin fs-5"></i></a>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="" class="button"><i class="bi bi-twitter fs-5"></i></a>
+                            </div>
+                            <div class="col my-3">
+                                <a href="" class="button"><i class="bi bi-google fs-5"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 Government Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
